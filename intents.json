@@ -1,0 +1,122 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello"
+      
+      ],
+      "responses": [
+        "Hey :)",
+        "Hello, how can i help you?",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "what can you do?",
+        "what ca n you do for me ?",
+        "can you do ?",
+        "tell me your abilities",
+        "how are you helpfull?",
+        "how are you helpfull",
+        "Can you perform tasks ?",
+        "can you do as i say?",
+        "can you do as i say"
+      ],
+      "responses": [
+        "I am a Virtual Robot , And I can Perform Various tasks. You can talk to me in English, If you are having any type of business, then I am Very Useful for You \n I can handle your Customers , Reply to their Queries etc..  \n\n\n\n For more enquiry , contact @dhruv_nimoria" 
+      ]
+    },
+    {
+      "tag": "yoshi",
+      "patterns": [
+        "yoshi sonkar"
+      
+      ],
+      "responses": [
+        "Hii Yoshi , Nice to meet you , \ni hope your studies are going well and @dhruv_nimoria does not disturb you during studies ,\n\n well.. I'll keep praying for your Success and hope you Get your desired mesical college after cracking NEET.  :) "
+      ]
+    },
+    
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","bye bye","see you"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Byee ! , See you Later",
+        "byee ,Come back soon :)"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    
+    {
+      "tag": "hindi greet",
+      "patterns": [
+        "Namaste"
+      ],
+      "responses": [
+        "Namaste :)"
+      ]
+    },
+    {
+      "tag": "temp",
+      "patterns": [
+        "shiwali sonwani"
+      ],
+      "responses": [
+        " Hellow Shiwali sonwani ! Special Greetings from Dhruv  ;) Indore to Banglore"
+      ]
+    
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        " My Grandfather has a heart of a lion and a lifetime ban from zoo \n lol XD ",
+        "What did the buffalo say when his son left for college? Bison.",
+        "What is the difference between Zimbawe cricket team and a tea bag? Ans : The tea bag stays in the cup longer XD"
+      ]
+    }
+  ]
+}
